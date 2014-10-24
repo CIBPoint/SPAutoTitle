@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" ImageUrl="../../SiteAssets/CIBAssets/AutoTitle/images/cib_splogo.png" Title="$Resources:FeatureTitle" Description="$Resources:FeatureTitle" Id="bc21f142-8dce-4853-9f4d-827baec04bbb" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="CustomListReceiver\Elements.xml" />
+    <ElementManifest Location="ListSettings\Elements.xml" />
+    <ElementManifest Location="CIBAssets\Elements.xml" />
+    <ElementFile Location="CIBAssets\Sample.txt" />
+    <ElementFile Location="CIBAssets\AutoTitle\pages\ListSettings.aspx" />
+    <ElementFile Location="CIBAssets\AutoTitle\images\cib_splogo.png" />
+    <ElementFile Location="CIBAssets\AutoTitle\js\cib.core_.js" />
+    <ElementFile Location="CIBAssets\AutoTitle\js\cib.title.csr.js" />
+    <ElementFile Location="CIBAssets\AutoTitle\js\cib.core.js" />
+    <ElementFile Location="CIBAssets\AutoTitle\js\cib.static.js" />
+    <ElementFile Location="CIBAssets\AutoTitle\js\Copy of cib.core.js" />
+    <ElementFile Location="Resources\Resources.resx" />
+  </ElementManifests>
+</Feature>

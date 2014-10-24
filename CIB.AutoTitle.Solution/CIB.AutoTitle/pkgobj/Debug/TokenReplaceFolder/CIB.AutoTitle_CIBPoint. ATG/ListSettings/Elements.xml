@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="CIB.AutoTitle.ListSettings"
+    GroupId="GeneralSettings"
+    Location="Microsoft.SharePoint.ListEdit"
+    RequireSiteAdministrator="FALSE"
+    Sequence="100"
+    Title="$Resources:ListSettingTitle">
+      <UrlAction Url="~site/SiteAssets/CIBAssets/AutoTitle/Pages/ListSettings.aspx?List={ListId}" />
+  </CustomAction>
+</Elements>

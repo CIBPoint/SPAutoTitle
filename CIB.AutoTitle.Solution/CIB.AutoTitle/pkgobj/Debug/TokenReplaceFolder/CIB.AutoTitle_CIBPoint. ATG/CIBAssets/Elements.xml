@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="CIBAssets" Url="SiteAssets">
+    <File Path="CIBAssets\Sample.txt" Url="CIBAssets/Sample.txt" />
+    <File Path="CIBAssets\AutoTitle\pages\ListSettings.aspx" Url="CIBAssets/AutoTitle/pages/ListSettings.aspx" />
+    <File Path="CIBAssets\AutoTitle\images\cib_splogo.png" Url="CIBAssets/AutoTitle/images/cib_splogo.png" />
+    <File Path="CIBAssets\AutoTitle\js\cib.core_.js" Url="CIBAssets/AutoTitle/js/cib.core_.js" />
+    <File Path="CIBAssets\AutoTitle\js\cib.title.csr.js" Url="CIBAssets/AutoTitle/js/cib.title.csr.js" />
+    <File Path="CIBAssets\AutoTitle\js\cib.core.js" Url="CIBAssets/AutoTitle/js/cib.core.js" />
+    <File Path="CIBAssets\AutoTitle\js\cib.static.js" Url="CIBAssets/AutoTitle/js/cib.static.js" />
+    <File Path="CIBAssets\AutoTitle\js\Copy of cib.core.js" Url="CIBAssets/AutoTitle/js/Copy of cib.core.js" />
+  </Module>
+</Elements>

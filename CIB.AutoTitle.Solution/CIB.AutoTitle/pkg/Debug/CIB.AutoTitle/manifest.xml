@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="07ba2448-5a77-490e-9728-9c6dae49d8f0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="CIB.AutoTitle.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="CIB.AutoTitle_CIBPoint. ATG\Feature.xml" />
+  </FeatureManifests>
+</Solution>

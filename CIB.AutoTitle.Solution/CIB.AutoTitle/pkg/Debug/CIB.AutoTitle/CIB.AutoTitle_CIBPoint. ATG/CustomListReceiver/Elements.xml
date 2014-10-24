@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="100">
+      <Receiver>
+        <Name>CustomListReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>CIB.AutoTitle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e6199fe7f39ef655</Assembly>
+        <Class>CIB.AutoTitle.ServerCode.Receivers.CustomListReceiver.CustomListReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>CustomListReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>CIB.AutoTitle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e6199fe7f39ef655</Assembly>
+        <Class>CIB.AutoTitle.ServerCode.Receivers.CustomListReceiver.CustomListReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

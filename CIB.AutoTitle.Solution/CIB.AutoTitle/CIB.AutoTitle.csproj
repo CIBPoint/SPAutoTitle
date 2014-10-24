@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{174A05D0-39C3-4662-9095-E7CFA63B986B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CIB.AutoTitle</RootNamespace>
+    <AssemblyName>CIB.AutoTitle</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerCode\Core\Core.cs" />
+    <Compile Include="ServerCode\Core\FieldMask.cs" />
+    <Compile Include="ServerCode\Receivers\CustomListReceiver\CustomListReceiver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Definition\Actions\ListSettings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{08738462-7f05-4940-bca3-019ff87b69dc}</SharePointProjectItemId>
+    </None>
+    <None Include="Definition\Actions\Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ca7487a9-4750-40aa-9129-717f3b5c67dd}</SharePointProjectItemId>
+    </None>
+    <None Include="Definition\CIBAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63bc56d2-21e4-4c87-b90a-c5b5d464733c}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\CIBPoint. ATG\CIBPoint. ATG.feature">
+      <FeatureId>{d9f514ec-d353-4b66-b869-a2d16450175b}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{07ba2448-5a77-490e-9728-9c6dae49d8f0}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="ServerCode\Receivers\CustomListReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b07ea79f-182a-4424-88c9-3f28914b0805}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebParts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Definition\Actions\ListSettings\Elements.xml" />
+    <Content Include="Definition\Actions\Scripts\Elements.xml" />
+    <Content Include="Definition\CIBAssets\AutoTitle\images\cib_splogo.png" />
+    <Content Include="Definition\CIBAssets\AutoTitle\js\cib.core_.js" />
+    <Content Include="Definition\CIBAssets\AutoTitle\js\cib.static.js" />
+    <Content Include="Definition\CIBAssets\AutoTitle\js\cib.title.csr.js" />
+    <Content Include="Definition\CIBAssets\AutoTitle\js\cib.core.js" />
+    <Content Include="Definition\CIBAssets\AutoTitle\js\Copy of cib.core.js" />
+    <Content Include="Definition\CIBAssets\AutoTitle\pages\ListSettings.aspx" />
+    <Content Include="Definition\CIBAssets\Elements.xml" />
+    <Content Include="Definition\CIBAssets\Sample.txt" />
+    <Content Include="Features\CIBPoint. ATG\CIBPoint. ATG.Template.xml">
+      <DependentUpon>CIBPoint. ATG.feature</DependentUpon>
+    </Content>
+    <Content Include="ServerCode\Receivers\CustomListReceiver\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\CIBPoint. ATG\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

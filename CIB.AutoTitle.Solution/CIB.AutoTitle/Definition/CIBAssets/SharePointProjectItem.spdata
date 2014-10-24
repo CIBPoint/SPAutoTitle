@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="CIBAssets\" Type="ElementManifest" />
+    <ProjectItemFile Source="Sample.txt" Target="CIBAssets\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\pages\ListSettings.aspx" Target="CIBAssets\AutoTitle\pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\images\cib_splogo.png" Target="CIBAssets\AutoTitle\images\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\js\cib.core_.js" Target="CIBAssets\AutoTitle\js\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\js\cib.title.csr.js" Target="CIBAssets\AutoTitle\js\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\js\cib.core.js" Target="CIBAssets\AutoTitle\js\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\js\cib.static.js" Target="CIBAssets\AutoTitle\js\" Type="ElementFile" />
+    <ProjectItemFile Source="AutoTitle\js\Copy of cib.core.js" Target="CIBAssets\AutoTitle\js\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

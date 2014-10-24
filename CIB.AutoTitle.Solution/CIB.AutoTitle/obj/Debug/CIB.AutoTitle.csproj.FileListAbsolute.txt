@@ -1,0 +1,10 @@
+c:\users\sergei.snitko\documents\visual studio 2012\Projects\CIB.AutoTitle.Solution\CIB.AutoTitle\bin\Debug\CIB.AutoTitle.dll
+c:\users\sergei.snitko\documents\visual studio 2012\Projects\CIB.AutoTitle.Solution\CIB.AutoTitle\bin\Debug\CIB.AutoTitle.pdb
+c:\users\sergei.snitko\documents\visual studio 2012\Projects\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.dll
+c:\users\sergei.snitko\documents\visual studio 2012\Projects\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.pdb
+C:\Users\sergei.snitko\Documents\Visual Studio 2012\Projects\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.csprojResolveAssemblyReference.cache
+C:\Users\sergei.snitko\Source\Repos\spautotitle\CIB.AutoTitle.Solution\CIB.AutoTitle\bin\Debug\CIB.AutoTitle.dll
+C:\Users\sergei.snitko\Source\Repos\spautotitle\CIB.AutoTitle.Solution\CIB.AutoTitle\bin\Debug\CIB.AutoTitle.pdb
+C:\Users\sergei.snitko\Source\Repos\spautotitle\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.csprojResolveAssemblyReference.cache
+C:\Users\sergei.snitko\Source\Repos\spautotitle\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.dll
+C:\Users\sergei.snitko\Source\Repos\spautotitle\CIB.AutoTitle.Solution\CIB.AutoTitle\obj\Debug\CIB.AutoTitle.pdb

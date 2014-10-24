@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="07ba2448-5a77-490e-9728-9c6dae49d8f0" solutionId="07ba2448-5a77-490e-9728-9c6dae49d8f0" resetWebServer="false" sharePointProductVersion="15.0" name="CIB.AutoTitle" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d9f514ec-d353-4b66-b869-a2d16450175b" />
+  </features>
+</package>
